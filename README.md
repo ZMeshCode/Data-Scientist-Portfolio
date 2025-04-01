@@ -5,6 +5,7 @@ Welcome to my GitHub portfolio! I'm Bobby Meshesha, a data scientist with a back
 ## 🎓 Education
 - **Master of Science in Information Management (Data Science)** – University of Washington
 - **Bachelor’s in Public Health(Pre Med)** -La Sierra University 
+assets/Generated Image April 01, 2025 - 1_05PM-2.jpeg
 
 ## 🚀 Featured Projects
 
