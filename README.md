@@ -18,7 +18,7 @@ A data-driven analysis and forecasting model for influenza trends using historic
 A machine learning model that predicts stock prices by combining:
 - Sentiment analysis from financial news and social media
 - Technical and fundamental financial indicators
-[(https://github.com/user-attachments/assets/59c924b6-7974-4142-87bb-03e0605c7ff5)
+
 
 ### ⚽ **Sports Database**  
 A relational database designed to store and analyze sports-related data, featuring:
