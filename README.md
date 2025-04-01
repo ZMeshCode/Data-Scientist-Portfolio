@@ -1,12 +1,10 @@
-# Bobby Meshesha's GitHub Portfolio
-
 # Data-Scientist
 
 Welcome to my GitHub portfolio! I'm Bobby Meshesha, a data scientist with a background in public health and machine learning. I specialize in predictive modeling, deep learning, and AI-driven solutions. This portfolio showcases my projects, ranging from deep learning systems to anomaly detection and AI automation.
 
 ## 🎓 Education
 - **Master of Science in Information Management (Data Science)** – University of Washington
-- **Bachelor’s in Public Health**
+- **Bachelor’s in Public Health(Pre Med)** -La Sierra University 
 
 ## 🚀 Featured Projects
 
