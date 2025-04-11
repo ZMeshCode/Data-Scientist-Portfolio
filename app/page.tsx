@@ -236,7 +236,7 @@ export default function Home() {
                 repoUrl="https://github.com/ZMeshCode/LLM-Legal-Analyzer-Tool"
                 description="A tool designed to analyze legal documents using Large Language Models (LLMs) to extract relevant information and insights."
                 tags={["NLP", "Legal", "Python", "AI"]}
-                imageUrl="/images/projects/llm-legal-analyzer.jpg"
+                imageUrl="/images/projects/legal-llm.jpg"
                 icon={<Brain className="h-10 w-10 text-indigo-600" />}
               />
               <ProjectCard
@@ -244,7 +244,7 @@ export default function Home() {
                 repoUrl="https://github.com/ZMeshCode/etl-pipeline-for-genai"
                 description="A robust ETL pipeline designed to process diverse unstructured data sources (PDFs, websites, images, DOCX) and prepare them for seamless integration with Generative AI applications, particularly RAG systems."
                 tags={["ETL", "Python", "Data Processing", "RAG", "GenAI"]}
-                imageUrl="/images/projects/etl-genai.jpg"
+                imageUrl="/images/projects/data-pipeline.jpg"
                 icon={<Database className="h-10 w-10 text-purple-600" />}
               />
             </div>
