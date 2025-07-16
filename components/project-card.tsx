@@ -7,6 +7,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 
 interface ProjectCardProps {
   repoUrl?: string
+  projectUrl?: string
   title: string
   description: string
   tags: string[]
@@ -14,7 +15,7 @@ interface ProjectCardProps {
   icon?: ReactNode
 }
 
-export function ProjectCard({ title, description, tags, imageUrl, icon, repoUrl }: ProjectCardProps) {
+export function ProjectCard({ title, description, tags, imageUrl, icon, repoUrl, projectUrl }: ProjectCardProps) {
   return (
     <Card className="overflow-hidden border-purple-200 dark:border-purple-800/30 shadow-sm hover:shadow-xl transition-all duration-300 group">
       <div className="aspect-video overflow-hidden relative">
@@ -52,7 +53,13 @@ export function ProjectCard({ title, description, tags, imageUrl, icon, repoUrl 
           className="gap-1 border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/30 transition-all duration-300"
           asChild
         >
-          <Link href={repoUrl || "#"} target="_blank" rel="noopener noreferrer">View Project Details</Link>
+          <Link 
+            href={projectUrl || repoUrl || "#"} 
+            target={projectUrl ? "_self" : "_blank"} 
+            rel={projectUrl ? undefined : "noopener noreferrer"}
+          >
+            View Project Details
+          </Link>
         </Button>
       </CardFooter>
     </Card>

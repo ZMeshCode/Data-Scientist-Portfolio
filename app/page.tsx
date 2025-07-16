@@ -201,6 +201,7 @@ export default function Home() {
             <div className="grid gap-8 pt-12 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
                 title="Patient Sentiment Analysis"
+                projectUrl="/projects/patient-sentiment-analysis"
                 repoUrl="https://github.com/ZMeshCode/Patient-Sentiment-Analysis-Deep-Learning"
                 description="An NLP-based project analyzing patient reviews to extract sentiment and insights from healthcare data. Helps healthcare providers understand patient experiences and improve service quality."
                 tags={["NLP", "Healthcare", "Python", "Sentiment Analysis"]}
@@ -233,9 +234,10 @@ export default function Home() {
               />
               <ProjectCard
                 title="LLM Legal Analyzer Tool"
+                projectUrl="/projects/llm-legal-analyzer"
                 repoUrl="https://github.com/ZMeshCode/LLM-Legal-Analyzer-Tool"
-                description="A tool designed to analyze legal documents using Large Language Models (LLMs) to extract relevant information and insights."
-                tags={["NLP", "Legal", "Python", "AI"]}
+                description="A modern AI-powered tool that revolutionizes legal document analysis, enabling legal professionals to reduce document reading time by up to 80% through intelligent summarization and information extraction."
+                tags={["NLP", "Legal", "Python", "AI", "LLM"]}
                 imageUrl="/images/projects/legal-llm.jpg"
                 icon={<Brain className="h-10 w-10 text-indigo-600" />}
               />
