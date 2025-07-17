@@ -205,11 +205,12 @@ export default function Home() {
                 repoUrl="https://github.com/ZMeshCode/Patient-Sentiment-Analysis-Deep-Learning"
                 description="An NLP-based project analyzing patient reviews to extract sentiment and insights from healthcare data. Helps healthcare providers understand patient experiences and improve service quality."
                 tags={["NLP", "Healthcare", "Python", "Sentiment Analysis"]}
-                imageUrl="/images/projects/patient-sentiment.jpg"
+                imageUrl="/images/projects/Patient-sentiment.png"
                 icon={<Stethoscope className="h-10 w-10 text-purple-600" />}
               />
               <ProjectCard
                 title="Influenza Analysis & Prediction"
+                projectUrl="/projects/influenza-analysis"
                 repoUrl="https://github.com/ZMeshCode/Influenza_Project"
                 description="A data-driven analysis and forecasting model for influenza trends using historical data. Helps healthcare organizations prepare for seasonal outbreaks and allocate resources effectively."
                 tags={["Time Series", "Forecasting", "Healthcare", "Python"]}
@@ -218,6 +219,7 @@ export default function Home() {
               />
               <ProjectCard
                 title="Stock Price Prediction"
+                projectUrl="/projects/stock-price-prediction"
                 repoUrl="https://github.com/ZMeshCode/Stock-Prediction"
                 description="A machine learning model that predicts stock prices by combining sentiment analysis from financial news and social media with technical and fundamental financial indicators."
                 tags={["ML", "Finance", "NLP", "Time Series"]}
@@ -225,12 +227,13 @@ export default function Home() {
                 icon={<BarChart3 className="h-10 w-10 text-purple-600" />}
               />
               <ProjectCard
-                title="Sports Database"
-                repoUrl="https://github.com/ZMeshCode/Sports-Database"
-                description="A relational database designed to store and analyze sports-related data, featuring player and team statistics, historical performance tracking, and SQL-based data retrieval and analytics."
-                tags={["SQL", "Database Design", "Data Analytics", "Sports"]}
-                imageUrl="/images/projects/sports-db.jpg"
-                icon={<Database className="h-10 w-10 text-indigo-600" />}
+                title="Brautigan Library Website"
+                projectUrl="/projects/brautigan-library"
+                repoUrl="https://github.com/ZMeshCode/Bruatigan-Library-website"
+                description="A sophisticated full-stack digital archive for unpublished manuscripts, featuring the MAYONNAISE classification system, Docker containerization, and modern web technologies."
+                tags={["Next.js", "Flask", "PostgreSQL", "Docker", "Full-Stack"]}
+                imageUrl="/images/projects/He_Kissed_All_Night.png"
+                icon={<BookOpen className="h-10 w-10 text-indigo-600" />}
               />
               <ProjectCard
                 title="LLM Legal Analyzer Tool"
@@ -243,10 +246,11 @@ export default function Home() {
               />
               <ProjectCard
                 title="ETL Pipeline for GenAI"
+                projectUrl="/projects/etl-genai-pipeline"
                 repoUrl="https://github.com/ZMeshCode/etl-pipeline-for-genai"
                 description="A robust ETL pipeline designed to process diverse unstructured data sources (PDFs, websites, images, DOCX) and prepare them for seamless integration with Generative AI applications, particularly RAG systems."
                 tags={["ETL", "Python", "Data Processing", "RAG", "GenAI"]}
-                imageUrl="/images/projects/data-pipeline.jpg"
+                imageUrl="/images/projects/Genai-image.png"
                 icon={<Database className="h-10 w-10 text-purple-600" />}
               />
             </div>

@@ -219,42 +219,24 @@ export default function PatientSentimentAnalysisPage() {
                 </p>
               </div>
 
-              <div className="grid gap-8 md:grid-cols-2">
-                <Card className="overflow-hidden border-purple-200 dark:border-purple-800/30 shadow-lg">
+              <div className="flex justify-center">
+                <Card className="overflow-hidden border-purple-200 dark:border-purple-800/30 shadow-lg max-w-2xl w-full">
                   <div className="aspect-video bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-950/30 dark:to-indigo-950/30 p-2 flex items-center justify-center">
                     <img
-                      src="/images/projects/patient-sentiment.jpg"
-                      alt="Patient sentiment analysis dashboard showing sentiment distribution and insights"
+                      src="/images/projects/model-performance.png"
+                      alt="Model performance dashboard showing sentiment analysis validation metrics, word cloud, and analysis history"
                       className="rounded-lg shadow-md w-full h-full object-contain cursor-pointer hover:opacity-90 transition-opacity"
                       onClick={() => openImageModal(
-                        "/images/projects/patient-sentiment.jpg",
-                        "Patient sentiment analysis dashboard showing sentiment distribution and insights",
-                        "Sentiment Analysis Dashboard"
+                        "/images/projects/model-performance.png",
+                        "Model performance dashboard showing sentiment analysis validation metrics, word cloud, and analysis history",
+                        "Model Performance Dashboard"
                       )}
                     />
                   </div>
                   <CardHeader>
-                    <CardTitle>Sentiment Analysis Dashboard</CardTitle>
+                    <CardTitle>Model Performance Dashboard</CardTitle>
                     <CardDescription>
-                      Interactive dashboard displaying sentiment distribution, emotion intensity, and key insights from patient feedback analysis with real-time visualizations.
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
-
-                <Card className="overflow-hidden border-purple-200 dark:border-purple-800/30 shadow-lg">
-                  <div className="aspect-video bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-950/30 dark:to-indigo-950/30 p-6 flex items-center justify-center">
-                    <div className="flex flex-col items-center justify-center text-center space-y-4">
-                      <BarChart3 className="h-16 w-16 text-indigo-400" />
-                      <div>
-                        <h3 className="font-semibold text-lg">Model Performance Metrics</h3>
-                        <p className="text-sm text-muted-foreground">Deep learning model accuracy and validation results</p>
-                      </div>
-                    </div>
-                  </div>
-                  <CardHeader>
-                    <CardTitle>Model Performance & Validation</CardTitle>
-                    <CardDescription>
-                      Comprehensive evaluation metrics including accuracy scores, confusion matrices, and cross-validation results demonstrating the model's effectiveness in sentiment classification.
+                      Comprehensive analytics dashboard displaying sentiment distribution, word cloud visualization, sentiment timeline, and detailed analysis history with model performance validation metrics.
                     </CardDescription>
                   </CardHeader>
                 </Card>
